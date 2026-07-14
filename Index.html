@@ -12,43 +12,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>My Portfolio</title>
  </head>
  <body>
 
     <div class="header">
         <!--Header-->
-        <div  class="head-txt">
-            <h1 class="port"><a href="#" class="Porto">My Portfolio</a></h1>
+        <div  class="head-txt px-5">
+            <h1 class="display-6"><a href="#" class="Porto">My Portfolio</a></h1>
         </div>
         <!--Navigation bar-->
-        <div class="head-nav">
-             <ul>
-                <li><a href="#" data-scroll="Scroll" id="doom-scroll">Projects</a></li>
+        <nav class="navbar-text">
+             <ul class="d-flex p-1 align-items-center px-5">
+                <li><a href="#" class="nav-item" data-scroll="Scroll" id="doom-scroll" aria-current="page">Projects</a></li>
                 <li><a href="#" data-scroll="Scroll" id="doom-scroll">About Me</a></li>
                 <li><a href="#" data-scroll="doom" id="doom-scroll">Contacts</a></li>
              </ul>
-        </div>
+        </nav>
     </div>
     <!--Body Section-->
     <div class="body" id="body">
         <div class="section section1" id="myInfo">
             <div class="info">
-                <h1 class="name">Hi, I'm John Kenneth Velasco</h1>
-                <p class="description">I am an aspiring Full-stack Developer with a passion for creating innovative and user-friendly web applications.</p>
-                <button type="button" class="btn" id="btn">Click Me!</button>
+                <h1 class="display-5 text-center">Hi, I'm John Kenneth Velasco</h1>
+                <p class="lead text-center">I am an aspiring Full-stack Developer with a passion for creating innovative and user-friendly web applications.</p>
+                <button type="button" class="btn" id="btn">Click Me!</i></button>
             </div>
             <!--My Image-->
-            <div class="myImg">
-                <img src="/Assets/VioTEch-me-removebg-preview.png" alt="My Image" class="img">
-            </div>
+            <figure class="figure float-end">
+                <img src="/Assets/VioTEch-me-removebg-preview.png" alt="My Image" class="img mx-auto d-block">
+            </figure>
 
         </div>
         <div class="section">
             
         </div>
     </div>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="index.js"></script>
  </body>
  </html>
