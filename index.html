@@ -3,7 +3,6 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
     <!--Open Sans-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
     <title>My Portfolio</title>
  </head>
  <body>
@@ -42,18 +42,67 @@
             </div>
             <!--My Image-->
             <figure class="figure float-end">
-                <img src="/Assets/VioTEch-me-removebg-preview.png" alt="My Image" class="img mx-auto d-block">
+                <img src="/Assets/VioTEch-me-removebg-preview.png" alt="My Image" class="myimg mx-auto d-block">
             </figure>
         </div>
 
 
-        <div class="section">
+        <div class="mt-4 section">
             <div class="text-center">
-                <h1 class="display-5 fw-bolder">My Projects</h1>
+                <h1 class="display-5 fw-bolder">Featured Projects</h1>
             </div>
             <!--Hero projects Section-->
-            <div class="container">
-                <div></div>
+            <div class="grid proj-section">
+
+                <!--Row-->
+               <div class="row text-center justify-content-center gap-5">
+
+                <!--col 1-->
+                 <div class="col-sm-2 border rounded-2 proj">
+                   <div class="proj-container">
+                     <figure class="img-fluid pt-3">
+                        <img src="Assets/MyPrjoject1.png" class="img-thumbnail img" alt="My project">
+                    </figure>
+                    <!--Description of my Project-->
+                    <div class="description">
+                        <p class="lead proj-des">FrontDesk AI | Conversational Guest Assistant & Hotel Data Summarizer</p>
+                    </div>
+                    <!--Tools-->
+                    <div class="dev-tools">
+                        
+                    </div>
+                   </div>
+                </div>
+
+                <!--Column 2-->
+                <div class="col-sm-2 border rounded-2 proj">
+                    <div class="proj-container">
+                       <figure class="img-fluid pt-3">
+                        <img src="Assets/MyPrjoject1.png" class="img-thumbnail img" alt="My project">
+                    </figure>
+                    <!--My description of the project-->
+                    <div>
+                        <p class="lead proj-des">FrontDesk AI | Conversational Guest Assistant & Hotel Data Summarizer</p>
+                    </div>
+                    </div>
+                </div>
+
+                <!--Column 3-->
+                <div class="col-sm-2 border rounded-2 proj">
+                   <div class="proj-container">
+                     <figure class="img-fluid pt-3">
+                        <img src="Assets/MyPrjoject1.png" class="img-thumbnail img" alt="My project">
+                    </figure>
+                    <!--My description of the Project-->
+                    <div>
+                        <p class="lead proj-des">FrontDesk AI | Conversational Guest Assistant & Hotel Data Summarizer</p>
+                    </div>
+                   </div>
+                </div>
+                
+
+               </div>
+
             </div>
             
         </div>
