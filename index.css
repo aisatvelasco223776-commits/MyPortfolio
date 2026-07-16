@@ -8,6 +8,10 @@ html, body{
     margin: 0;
 }
 
+#projects{
+    scroll-margin-top: 100px;
+}
+
 .header{
     width: 100%;
     display: flex;
@@ -94,7 +98,7 @@ li{
     width: 700px;
     height: 350px;
     border: gray 1px;
-    padding: 70px 90px 70px 90px;
+    padding: 100px 90px 190px 90px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transform: box shadow 0.3s ease-in-out;
     transition: transform 0.4s ease-in-out; /*Both needs to be studied later*/
@@ -239,4 +243,37 @@ cursor: pointer;
 
 .proj-des{
     font-size: 14px;
+}
+
+.css3{
+    height: 20px;
+    width: 20px;
+}
+
+.bootstrap{
+    height: 20px;
+    width: 20px;
+}
+
+.c{
+    height: 10px;
+    width: 10px;
+}
+
+.azure{
+    height: 50px; width: 50px;
+}
+
+.tools-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 130px;
+    border: solid 1px;
+    height: 40px;
+}
+
+.prj-name{
+    font-size: 12px;
+    font-weight: 800;
 }
